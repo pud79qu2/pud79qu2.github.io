@@ -23,8 +23,14 @@ body {
     text-align: center;
 }
 
+#content{
+    width: 100%; /* 父容器占据整个页面宽度 */
+    margin: 0 auto;
+}
+
 .question {
-    width: 560px; /* 固定宽度 */
+    width: 80%;
+    max-width: 560px; /* 固定宽度 */
     margin: 20px auto;
     font-size: 1em;
     color: rgb(32, 78, 143);
@@ -34,8 +40,9 @@ body {
 }
 
 .answer {
-    width: 600px;
-    margin: 20px 0;
+    width: 80%;
+    max-width: 600px;
+    margin: 20px auto;
     padding: 20px;
     background-color: white;
     border: 2px solid white;
@@ -55,17 +62,15 @@ body {
     padding: 10px 15px;
     border: 2px solid #ADD8E6;
     border-radius: 4px;
-    /*background-color: #f9f9f9;*/
+    background-color: #ADD8E6;
     cursor: pointer;
 }
 
 .pagination button.active {
-    background-color: #ADD8E6;
     color: #555;
 }
 
 .pagination button:disabled {
-    background-color: #ADD8E6;
     color: #555;
     cursor: not-allowed;
 }
