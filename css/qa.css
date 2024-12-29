@@ -63,15 +63,14 @@ body {
     height: 40px;
     border: 2px solid #ADD8E6;
     border-radius: 4px;
+    color: rgb(32, 78, 143);
     cursor: pointer;
 }
 
 .pagination button.active {
     background-color: #ADD8E6;
-    color: #555;
 }
 
 .pagination button:disabled {
-    color: #555;
     cursor: not-allowed;
 }
