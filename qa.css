@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#caption{
+    color: rgb(32, 78, 143)
+}
+
+#ask{
+    margin: 20px 0;
+    padding: 10px 15px;
+    background-color: #ADD8E6;
+    border: 2px solid #ADD8E6;
+    border-radius: 16px;
+    font-size: 1em;
+    color: rgb(32, 78, 143);
+    text-align: center;
+}
+
+.question {
+    width: 560px; /* 固定宽度 */
+    margin: 20px auto;
+    font-size: 1em;
+    color: rgb(32, 78, 143);
+    text-align: left;
+    word-wrap: break-word; /* 自动换行，防止内容溢出 */
+    white-space: normal; /* 允许换行 */
+}
+
+.answer {
+    width: 600px;
+    margin: 20px 0;
+    padding: 20px;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 8px;
+    font-size: 1em;
+    color: #555;
+    text-align: left;
+    overflow-wrap: break-word; /* 自动换行，防止内容超出框 */
+}
+
+.pagination {
+    margin: 20px;
+}
+
+.pagination button {
+    margin: 0 5px;
+    padding: 10px 15px;
+    border: 2px solid #ADD8E6;
+    border-radius: 4px;
+    /*background-color: #f9f9f9;*/
+    cursor: pointer;
+}
+
+.pagination button.active {
+    background-color: #ADD8E6;
+    color: #555;
+}
+
+.pagination button:disabled {
+    background-color: #ADD8E6;
+    color: #555;
+    cursor: not-allowed;
+}
