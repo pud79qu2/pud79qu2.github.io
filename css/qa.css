@@ -58,7 +58,7 @@ body {
 }
 
 .pagination button {
-    margin: 0 5px;
+    margin: 10px 5px;
     width: 40px;
     height: 40px;
     border: 2px solid #ADD8E6;
