@@ -54,11 +54,11 @@ body {
 }
 
 .pagination {
-    margin: 20px;
+    margin: 20px auto;
 }
 
 .pagination button {
-    margin: 10px 5px;
+    margin: 0 5px;
     width: 40px;
     height: 40px;
     border: 2px solid #ADD8E6;
